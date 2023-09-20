@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | News homepage</title>
+    <!-- link to external CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <img src="./assets/images/logo.svg" alt="logo" />
+
+      <!-- menu -->
+      <a class="menu" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+        <img src="./assets/images/icon-menu.svg" alt="menu icon" /> 
+
+      
+      <ul class="">
+        <li class="nav-link"><a href="">Home</a></li>
+        <li class="nav-link"><a href="">New</a></li>
+        <li class="nav-link"><a href="">Poular</a></li>
+        <li class="nav-link"><a href="">Trending</a></li>
+        <li class="nav-link"><a href="">Categories</a></li>
+      </ul>
+    </nav>
+
+    <!-- offcanvas -->
+    <div class="offcanvas">
+    <div class="offcanvas offcanvas-end w-75" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <div class=""></div>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="#offcanvasRight" >
+          <li class="nav-link"><a href="">Home</a></li>
+            <li class="nav-link"><a href="">New</a></li>
+            <li class="nav-link"><a href="">Poular</a></li>
+            <li class="nav-link"><a href="">Trending</a></li>
+            <li class="nav-link"><a href="">Categories</a></li>
+          </ul>
+        </a>
+        </div>
+      </div> 
+    </div>
+
+   
+
+    <!-- the main part of the design -->
+    <main>
+      <section>
+        <!-- part 1 -->
+        <!-- mobile-hero-image -->
+        <div class="hero-image">
+          <img src="./assets/images/image-web-3-mobile.jpg" alt="hero-mobile"/>
+          <!-- desktop hero-image -->
+          <img
+            src="./assets/images/image-web-3-desktop.jpg" alt="hero-desktop"/>
+          
+        </div>
+
+        <div class="hero-content">
+          <div class="bright">
+            <h1>The Bright Future Of Web 3.0?</h1>
+          </div>
+          <div class="readmore">
+            <p>
+              We dive into the next evolution of the web that claims to put the
+              power of the platforms back into the hands of the people. But is it
+              really fulfilling its promise?
+            </p>
+            <a href=""> Read more</a>
+          </div>
+        </div>
+        
+      </section>
+       <div class="new">
+        <!-- part 2 -->
+        <h2>New</h2>
+        <div class="new-conent">
+        <a>Hydrogen VS Electric Cars </a>
+        <p>Will hydrogen-fueled cars ever catch up to EVs? 
+        </p>
+     </div>
+     <hr>
+     <div class="new-content">
+      <a>The Downsides of AI Artistry</a>
+      <p> What are the possible adverse effects of on-demand AI image generation?</p>
+     </div>
+     <hr>
+     <div class="new-content">
+      <a>Is VC Funding Drying Up?</a>
+      <p>Private funding by VC firms is down 50% YOY. We take a look at what that
+        means.</p>
+     </div>
+    </div>
+  </main>
+       
+  <section class="footer">
+    <div class="footer-card">
+      <img src="./assets/images/image-retro-pcs.jpg" alt="retro-image">
+      <div class="footer-card-text">
+        <h1>01</h1>
+        <h3>Reviving Retro PCs</h3>
+         <p>What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </div> 
+
+       <div class="footer-card">
+        <img src="./assets/images/image-top-laptops.jpg" alt="laptop-image">
+        <div class="footer-card-text">
+          <h1>02</h1>
+          <h3>Top 10 Laptops of 2022</h3>
+          <p>Our best picks for various needs and
+            budgets.
+             </p>
+        </div>
+      </div>
+            <div class="footer-card">
+              <img src="./assets/images/image-gaming-growth.jpg" alt="gaming-image">
+              <div class="footer-card-text">
+                 <h1>03</h1>
+                <h3>The Growth of Gaming</h3>
+                <p> How the pandemic has sparked fresh
+                  opportunities.</p>
+              </div>
+            </div>
+          </section>
+
+  
+
+
+ <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      > Coded by <a href="#"></a>.FAVDEVS
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+  </body>
+</html>
